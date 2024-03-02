@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verify Your Account</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 600px;
+      margin: 40px auto;
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .otp-code {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome, <%= user.name %>!</h2>
+
+    <p>Thank you for signing up to CYANLMS. To activate your account, please enter the following 6-digit OTP:</p>
+
+    <div class="otp-code"><%= otp %></div>
+
+    <p>This OTP is valid for 5 minutes.</p>
+
+    <p>We're excited to have you on board!  </p>
+
+    <div class="footer">
+      <p>Sincerely,</p>
+      <p>The LMS Team</p>
+    </div>
+  </div>
+</body>
+</html>
