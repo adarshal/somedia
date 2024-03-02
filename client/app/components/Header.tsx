@@ -79,7 +79,7 @@ const Header: FC<Props> = ({ activeItem, setOpen,open, route,setRoute }) => {
                 href={"/"}
                 className={`text-[25px] font-Poppins font-[500] text-black dark:text-white`}
               >
-                <h1>checking</h1>
+                <h1>SoMedia</h1>
               </Link>
             </div>
             <div className="flex items-center">
