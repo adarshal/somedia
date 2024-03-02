@@ -1,9 +1,10 @@
 for running backend use npm run dev2 and for frontend use npm run dev
-// demo video
-backend- https://drive.google.com/file/d/1AF6gZuke7EBh7BzOzQ7gadJNPrWym1ji/view?usp=drive_link
-frontend- https://drive.google.com/file/d/1E3lrbp_fepVowLPJraBjkuOfEtxCDXo5/view?usp=drive_link
-
-For backend env file fields  required-
+<br />
+// demo video <br />
+backend- https://drive.google.com/file/d/1AF6gZuke7EBh7BzOzQ7gadJNPrWym1ji/view?usp=drive_link<br />
+frontend- https://drive.google.com/file/d/1E3lrbp_fepVowLPJraBjkuOfEtxCDXo5/view?usp=drive_link<br />
+<br /><br />
+For backend env file fields  required-<br />
 //
 PORT=
 ORIGINS=http://localhost:8000,http://localhost:3000
@@ -13,7 +14,6 @@ MONGO_URL=''
 CLOUD_NAME=''
 CLOUDINARY_API_KEY=''
 CLOUDINARY_SECRET_KEY='-E'
-
 JWT_ACTIVATION_SECRET=
 SMTP_HOST="smtp.gmail.com"
 SMTP_PORT=
@@ -25,8 +25,8 @@ ACCESS_TOKEN=''
 REFRESH_TOKEN=''
 ACCESS_TOKEN_EXPIRE=10
 REFRESH_TOKEN_EXPIRE=10
-//
-For frontend env file fields  required-
+//<br /><br />
+For frontend env file fields  required-<br />
 NEXT_PUBLIC_SERVER_URI="http://localhost:8000/v1/"
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
