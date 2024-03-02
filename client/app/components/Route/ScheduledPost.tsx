@@ -21,7 +21,7 @@ const ScheduledPost = () => {
 
     if(!user){
       return(
-        <div>Signin to see  posts</div>
+        <div>Signin to see scheduled posts</div>
     )
     }
     if(isError){
